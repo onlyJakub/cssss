@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+        <head>
+            <meta charset="UTF-8">
+        </head>
+    <body>
+        <h1><u>Pseudoelementy</u> (selektory pseudoelementów)</h1>
+        <br><br>
+        <h2>
+            Pseudoelementem :first-line, który obejmuje formatowaniem całą <br>
+            pierwszą linię.
+        </h2>
+        
+        <table width=600 border="1" align="center" style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+                <td>
+                    p{ <br>
+                        color:navy;<br>
+                        font-size:12pt;<br>
+                    }
+                    <br><br>
+                    p:first-line{<br>
+                        color:red;<br>
+                        font-size:20pt;<br>
+                        font-weight:bold;<br>
+                        }
+                </td>
+            </tr>
+        </table>
+
+        <h2>
+            pseudoelementy: :after oraz :before.
+        </h2>
+
+        <p>
+        Poza :first-letter oraz :first-line w specyfikacji umieszczono jeszcze dwa inne <br>
+        <b>pseudoelementy: :after oraz :before.</b> Oba elementy służą do umieszczania tekstu przed i za <br>
+        formatowanym elementem strony. Poniżej zamieszczam odpowiedni przykład.
+        </p>
+
+        <table width=600 border="1" align="center" style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+                <td>
+                    p:before{<br>
+                        content:"TO SĄ ĆWICZENIA";<br>
+                        font-size:15pt;<br>
+                        font-style:italic; <br>
+                        font-weight:bold;<br>
+                    }
+
+                    <br><br>
+                    
+                    p:after{<br>
+                        content:"AUTOR Król Lew";<br>
+                        font-size:15pt;<br>
+                        font-style:italic;<br>
+                        font-weight:bold;<br>
+                    }
+                </td>
+            </tr>
+        </table>
+        
+        <h2>Pseudoelement :first-letter</h2>
+        <p>
+            pozwala na formatowanie pierwszej litery w bloku <br>
+            tekstu.<br> 
+            Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i <br>
+            nadanie jej koloru czerwonego.
+        </p>
+
+        <table width=600 border="1" align="center" style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+                <td>
+                    p{<br>
+                        color:navy;<br>
+                        font-size:30pt;<br>
+                    }
+                    <br><br>
+                    p:first-letter{<br>
+                        color:red;<br>
+                        font-size:100pt;<br>
+                    }
+                </td>
+            </tr>
+        </table>
+
+        <p>
+            Efektem działania powyższego arkusza stylów będzie <B><u>powiększona pierwsza litera każdego</u></B><br>
+            <b><u>akapitu</u></b> występującego w dokumencie XHTML/HTML.<Br>
+        </p>
+
+        <br><br>
+
+        <p>
+            Zastosowanie pseudoelement :first-letter z innymi znacznikami. <br>
+            Przykład z nagłówkiem stopnia pierwszego.
+        </p>
+
+        <table width=600 border="1" align="center" style="border: 1px solid black; border-collapse: collapse;">
+            <tr>
+                <td>
+                    H1{<br>
+                        color:navy;<br>
+                        font-size:30pt;<br>
+                    }
+
+                    <br><br>
+
+                    H1:first-letter{<br>
+                        color:red;<br>
+                        font-size:100pt;<br>
+                    }
+                </td>
+            </tr>
+
+    </body>
+</html>

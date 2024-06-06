@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            table{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <h1>składnia teoretyczna definiowania klasy → obramowania (może być tabele
+                    jednokomórkowa),</h1>
+                <p>
+                    Składnia teoretyczna:<br>
+                    <table border="1">
+                        <tbody>
+                            <th>
+                                selektor.klasa { cecha: wartość }
+                            </th>
+                        </tbody>
+                    </table>
+                </p>
+            </li>
+
+            <li>
+                <h1>Podaj opis dla Klasa "cecha" oraz "wartość",</h1>
+                <p>
+                    <b>Klasa</b> to wartość atrybutu class="..." nadanego selektorowi z poziomu języka (X)HTML.<br>
+                    <b>"cecha" oraz "wartość"</b> określają atrybuty elementu nadane poprzez style.<br>
+                </p>
+            </li>
+            
+            <li>
+                <h1>Jaki znacznik może być selektorem? Trzy przykłady selektorów dla klas ( ze znaczeniem),</h1>
+                <p>
+                    <b>Selektorem</b> może być dowolny znacznik,<br>
+                    np. p → akapit,<br>
+                    h1 → tytuł,<br>
+                    td → komórka tabeli i inne.<br>
+                </p>
+            </li>
+
+            <li>
+                <h1>Podaj uwagi na temat nazwy klas: (wykonaj cały tekst, uzupełnij miejsca kropek,
+                    uzupełnienia wykonaj pismem pogrubionym, pogrubienia wykonaj z użyciem CSS)<br>
+                    Nazwą może być być dowolny pojedynczy wyraz, nie może on zawierać<br>
+                    a)znaków<br>
+                    spacji<br>
+                    h)kropki<br>
+                    Może zawierać:<br>
+                    a)litery<br>
+                    cyfry<br>
+                    d)myślniki<br>
+                    Nazwa nie może zaczynać się od cyfry lub myślnika<br>
+                    Gdy chcemy użyć znaków "zakazanych" znaków, należy przy deklaracji klasy poprzedzić je takim znakiem \.</h1>
+            </li>
+
+            <li>
+                <h1>Jakie jest zastosowanie klas?</h1>
+                <p>
+                    Klasy w CSS (Cascading Style Sheets) mają kluczowe zastosowanie w stylizacji<br> elementów na stronie internetowej. Pozwalają one na zdefiniowanie zestawu stylów,<br> które mogą być następnie używane do różnych elementów HTML bez konieczności <br> powtarzania tych samych reguł stylów.
+                </p>
+            </li>
+
+            <li>
+                <h1>Kiedy ma zastosowanie lista klas?</h1>
+                <p>
+                    Lista klas w CSS ma zastosowanie w przypadkach, gdy chcemy przypisać<br> elementowi więcej niż jedną klasę, aby stosować różne zestawy stylów lub<br> dodatkowe dekoracje w zależności od potrzeb. Umożliwia to tworzenie bardziej<br> elastycznych i reużywalnych reguł stylów.
+                </p>
+            </li>
+
+            <li>
+                <h1>składnia teoretyczna listy klasy → obramowania, oraz
+                    uwagi.</h1>
+                <p>
+                    <table border="1">
+                        <tbody>
+                            <th>
+                                < selektor class="klasa1 klasa2 klasa3...">...</ selektor>    
+                            </th>
+                        </tbody>
+                    </table>
+                    Uwagi:
+                    • przy czym klasy: klasa1, klasa2, klasa3 muszą być zdeklarowane w wewnętrznym,
+                    zewnętrznym lub importowanym arkuszu stylów.
+                    • Kolejność wpisywania nazw klas w wartości atrybutu class="..." nie ma znaczenia na
+                    ostateczny sposób formatowania elementu. Jeżeli kilka przypisanych klas odnosi się
+                    do tej samej własności, o wyniku decyduje zasada kaskadowości.
+                </p>
+            </li>
+
+            <li>
+                <h1>Czym są podzbiory klas. Składnia teoretyczna listy klasy → obramowania</h1>
+                <p>
+                    Istnieje możliwość określenia tzw. podzbioru klas, czyli podania, jakie klasy musi mieć
+                    jednocześnie przypisane element, aby wybrana reguła CSS miała do niego zastosowanie. Na
+                    przykład po wpisaniu:
+                    <table border="1">
+                        <tbody>
+                            <th>
+                                selektor.klasa1.klasa3 { cecha: wartość }
+                            </th>
+                        </tbody>
+                    </table>
+                    zmieniony zostanie sposób formatowania elementu:
+                    <table border="1">
+                        <tbody>
+                            <th>
+                                < selektor class="klasa1 klasa2 klasa3...">...</ selektor>
+                            </th>
+                        </tbody>
+                    </table>
+                    Kolejność podawania klas - zarówno w regule CSS, jak i w wartości atrybutu class="..." - nie
+                    ma znaczenia.
+                </p>
+            </li>
+
+            <li>
+                <h1>Co jest sygnałem, że należy zastosować klasy?</h1>
+                <p>
+                    Zastosowanie klas w CSS jest korzystne, gdy kod zaczyna się powtarzać, co pomaga <br>w unikaniu duplikacji i zwiększa elastyczność w modyfikacjach stylów. Klasy<br> ułatwiają również modularyzację i organizację kodu w większych projektach, co<br> przyczynia się do jego czytelności i zrozumiałości. Ponadto, klasy pozwalają na<br> dynamiczne zmiany stylów w odpowiedzi na interakcje użytkownika i są użyteczne w<br> responsywnym designie, dostosowując stylizację do różnych urządzeń.
+                </p>
+            </li>
+
+            <li>
+                <h1>Kiedy i z jakiego powodu powinny być planowane klasy dla wykonywanej strony?</h1>
+                <p>
+                    Planowanie klas na wczesnym etapie projektowania strony pozwala na spójną i<br> elastyczną stylizację, ułatwiając wielokrotne wykorzystanie zdefiniowanych<br> zestawów stylów. Dzięki temu zmiany w stylach można wprowadzać konsekwentnie i<br> efektywnie, minimalizując potrzebę modyfikacji kodu w różnych miejscach.<br> Organizacja klasyfikacji na początku procesu projektowego wspiera czytelność i<br> uporządkowanie kodu, co jest korzystne dla współpracy w zespołach i utrzymania<br> spójności projektu.
+                </p>
+            </li>
+
+            <li>
+                <h1>Jaki jest cel stosowania komentarzy podczas definiowania klas?</h1>
+                <p>
+                    Stosowanie komentarzy podczas definiowania klas w<br> CSS pomaga w dokumentowaniu kodu, co ułatwia zrozumienie jego struktury i przeznaczenia przez<br> innych programistów. Komentarze pozwalają też na szybkie odnalezienie i<br> zrozumienie specyficznych sekcji kodu podczas przeglądania lub edycji stylów.<br> Ponadto, dobrze umieszczone komentarze mogą służyć jako przypomnienie dla<br> siebie samego w przyszłości, pomagając w późniejszych modyfikacjach i<br> aktualizacjach stylów.
+                </p>
+            </li>
+
+            <li>
+                <h1>Podaj konkretny przykład definiowania klasy oraz jej użycia.</h1>
+                <p>
+                    definicja arkusza styli<br>
+                    p.przykladowa_klasa { color: blue }<br>
+                    wywołanie<br>
+                    < p class="przyklad_klasa">To jest akapit.</ p><br>
+                </p>
+            </li>
+
+            <li>
+                <h1>Omów klasę donosząca się tylko do jednego selektora wraz z przykładem.</h1>
+                <p>
+                    Podobnie jak w przypadku identyfikatora, tak zdefiniowana klasa może zostać użyta tylko w<br>
+                    tym selektorze, do którego została przypisana, np.:<br>
+                    <u>definicja arkusza styli</u><br>
+                    p.moja<br>
+                    {<br>
+                    color:green;<br>
+                    font-size:14pt;<br>
+                    }<br>
+                    <u>wywołanie</u><br>
+                    Powinna zostać wywołana w znaczniku < p></ p> w następujący sposób:<br>
+                    < p class=”moja”>Treść akapitu< /p><br>
+                </p>
+            </li>
+
+            <li>
+                <h1>Jaki jest cel stosowania klasy uniwersalnej. Jakie jest znaczenie znaku „*” oraz kiedy
+                    można nie stosować tego znaku. Podaj przykład (definicja, wywołanie).</h1>
+            </li>
+        </ol>
+        <ol>
+            <li>
+                <p>
+                    W przypadku stosowanie klas, często podczas ich definiowania, nie wiemy jeszcze, w<br>
+                    stosunku do jakich znaczników będziemy chcieli je później użyć. Wtedy przydatny okazuje<br>
+                    się selektor uniwersalny, który pozwala przypisać własności klasy do wszystkich elementów,<br>
+                    którym zostanie ona nadana, bez względu na typ znacznika czyli <b>użycie jest możliwe w<br>
+                    różnych znacznikach.</b><br>
+                    <u><b>Przykład:</b></u><br>
+                    <u>definicja arkusza styli</u><br>
+                    *.przyklad_uniwersalna { color: red }<br>
+                    Każdy element, któremu nadamy klasę <b>przyklad_uniwersalna</b>, będzie miał kolor czerwony.<br>
+                    W tym przypadku gwiazdkę (*) w regule stylu można pominąć:<br>
+                    .przyklad_uniwersalna { font-size:12 pt; color: red }<br>
+                    Zwróć uwagę na fakt występowania kropki po selektorze lub przed nazwą klasy. Jest to<br>
+                    element obowiązkowy i bez tego dalsza praca nie miałaby większego sensu.<br>
+                    Jak widać na powyższym przykładzie, klasa jest wywoływana w dokumencie za pomocą<br>
+                    atrybutu class, który może zostać umieszczony niemal w dowolnym znaczniku kodu HTML.<br>
+                    <b>Przykład</b><br>
+                    <u>definicja arkusza styli</u><br>
+                    .moja<br>
+                    {<br>
+                    color:red;<br>
+                    font-size:12pt;<br>
+                    font-style:italic;<br>
+                    }<br>
+                    <u>wywołanie</u><br>
+                    <b>Wywołanie klasy</b> tak określonej klasy również odbywa się za pomocą atrybutu class.<br>
+                    < p class=”moja”>Przykład akapitu z określoną klasą</ p><br>
+                    < ol class=”moja”><br>
+                    < h1 class=”moja”>Przykład nagłówka z określoną klasą</ h1><br>
+                    <b>Przykład</b><br>
+                    <u>Listing arkusza CSS</u><br>
+                    p<br>
+                    {<br>
+                    font-size:14pt;<br>
+                    color:green;<br>
+                    }<br>
+                    .moja<br>
+                    {<br>
+                    font-style:italic;<br>
+                    font-size:20pt;<br>
+                    color:red;<br>
+                    }<br>
+                    <u>Listing fragmentu kodu XHTML/HTML</u><br>
+                    < p>Blok tekstu o kolorze zielonym i czcionce 14pt</ p><br>
+                    < p class="moja">Blok tekstu, w którym użyłem klasy o nazwie .moja</ p><br>
+                    < p>Blok tekstu o kolorze zielonym i czcionce 14pt</ p><br>
+                    < ol class="moja"><br>
+                    < li>lista, w której użyłem klasy o nazwie .moja</ li><br>
+                    < li>lista, w której użyłem klasy o nazwie .moja</ li><br>
+                    </ ol>
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

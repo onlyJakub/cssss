@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html lang="pl-PL">
+        
+        <head>
+
+        </head>
+    <body>
+        <ol>
+            <h1><li>składnia teoretyczna definiowania klasy</h1><br>
+                <table border="1" style="border-collapse: collapse;">
+                    <tr>
+                        <td>
+                            selektor.klasa { cecha: wartość }
+                        </td>
+                    </tr>
+                </table>
+            </li>
+
+            <h1><li>opis dla Klasa "cecha" oraz "wartość"</h1><br>
+                <p>Klasa to wartość atrybutu class="..." nadanego selektorowi z poziomu języka (X)HTML.</p>
+                <p>"cecha" oraz "wartość" określają atrybuty elementu nadane poprzez style.</P>
+            </li>
+
+            <h1><li>Jaki znacznik może być selektorem?</h1><br>
+                <p>np. p = akapit,</p>
+                <p>h1 = tytuł</p>
+                <p>td → komórka tabeli i inne.</p>
+            </li>
+
+            <h1><li>uwagi na temat nazwy klas</h1><br>
+                <p>
+                    Nazwą może być  dowolnym pojedynczym wyrazem, nie może ona zawierać: <br> znaków: spacji, kropki, przecinka, dwukropka, pytajnika, nawiasów, znaku równości, plusa itp.
+                </p>
+                <p>
+                    może zwierać: <br> litery (A-Z, a-z), cyfry (0-9), myślniki ("-") i podkreślniki 
+                    ("_"). Lepiej nie używać polskich liter. 
+                </p>
+
+                <P>
+                    Nazwa nie może zaczynać się od:<br>
+                    Nie może się on również rozpoczynać cyfrą ani myślnikiem.
+                </P>
+
+                <P>
+                    Gdy chcemy użyć znaków "zakazanych" znaków, należy: <br>
+                    Jeśli koniecznie chcemy użyć "zakazanych" znaków, należy w deklaracji klasy <br>
+                    poprzedzić je odwróconym ukośnikiem "\", np. reguła: selektor.B\&W\? { cecha: <br>
+                    wartość } odpowiada klasie: class="B&W?".
+                </P>
+            </li>
+            
+            <h1><li>Jakie jest zastosowanie klas?</h1><br>
+                <p>
+                    Deklaracja klasy jest przydatna szczególnie, jeśli na wielu stronach serwisu znajdują się <br>
+                    elementy mające takie samo formatowanie, a dodatkowo nie można dla nich posłużyć się <br>
+                    selektorem typu, ponieważ na stronie znajdują się inne znaczniki tego samego rodzaju co <br>
+                    wybrany element, ale nie chcemy, aby i one otrzymały takie samo formatowanie. <br>
+                </p>
+            </li>
+
+            <h1><li>Kiedy ma zastosowanie lista klas?</h1><br>
+                <p>
+                    Jeśli chcemy do pojedynczego elementu przypisać kilka różnych klas
+                </p>
+            </li>
+
+            <h1><li>składnia teoretyczna listy klasy</h1><br>
+                <p>
+                    Jeśli chcemy do pojedynczego elementu przypisać kilka różnych klas, należy posłużyć się <br>
+                    poleceniem:
+                </p>
+                <table border="1" style="border-collapse: collapse;">
+                    <tr>
+                        <td>
+                            < selektor class="klasa1 klasa2 klasa3..."></selektor>
+                        </td>
+                    </tr>
+                </table>
+                <ol type="1">
+                    <li>
+                        przy czym klasy: klasa1, klasa2, klasa3 muszą być zdeklarowane w wewnętrznym, <br>
+                        zewnętrznym lub importowanym arkuszu stylów.
+                    </li>
+                    <li>
+                        Kolejność wpisywania nazw klas w wartości atrybutu class="..." nie ma znaczenia na <br>
+                        ostateczny sposób formatowania elementu. Jeżeli kilka przypisanych klas odnosi się <br>
+                        do tej samej własności, o wyniku decyduje zasada kaskadowości. <br>
+                    </li>
+                </ol>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+    </body>
+</html>
+<!--Jakub Wojciehowicz-->

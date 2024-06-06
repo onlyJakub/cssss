@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            p {
+                font-size: 10pt;
+                position: relative; left: 50px;
+            }
+            p:first-child {
+                font-size: 9mm;
+                font-style: italic;
+            }
+            body {
+                background-color: silver;
+            }
+
+            div#pierwszy_wojciechowicz {
+                width: 812pt;
+                background-color: rgb(144,238,144);
+                border-radius: 12mm;
+                border: 3px black solid;
+                margin-left: auto;
+                margin-right: auto;
+            }
+ 
+            div#drugi_wojciechowicz {
+                width: 1012pt;
+                background-color: rgb(173,216,230);
+                border-radius: 19mm;
+                border: 5px rgb(128.0.128) solid;
+                margin-left: auto;
+                margin-right: auto;
+            }
+ 
+            div#trzeci_wojciechowicz {
+                width: 1196pt;
+                background-color: rgb(255,192,203);
+                border-radius: 19mm;
+                border: 7px purple solid;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="pierwszy_wojciechowicz"> 
+            <p>
+                Pierwszy Akapit / Pierwszy DIV --> Wojciechowicz <br>
+                Nazwa ID akapitu id="pierwszy_wojciechowicz"<br>
+            </p> <br>
+ 
+            <p>
+                Drugi Akapit / Pierwszy DIV <br>
+                Pierwszy akapit --> p:first-child { font-size:9mm; font-styl:italic; } bo numer parzysty w dzienniku <br>
+                Pozostałe akapity --> p { font-size: 10pt } bo numer parzysty w dzienniku <br>
+                Szerokość bloku = 700 + 28 * 4 = 812 pt <br>
+                Pierwszy DIV --> kolor jasnozielony <br>
+            </p> <br>
+ 
+            <p>
+                Trzeci Akapit / Pierwszy DIV <br>
+                Pierwszy DIV --> obramowanie czarne DIV <br>
+                Pierwszy DIV --> obramowanie grubość 3px <br>
+                Pierwszy DIV --> r1 = 7mm + 5mm (Jakub) = 12mm <br>
+            </p> <br>
+        </div>
+ 
+        <div id="drugi_wojciechowicz">
+            <p>
+                Pierwszy Akapit / Drugi DIV --> Jakub <br>
+                Nazwa ID akapitu id="drugi_wojciechowicz" <br>
+            </p> <br>
+ 
+            <p>
+                Drugi Akapit / Drugi DIV <br>
+                Drugi DIV --> kolor jasno niebieski <br>
+            </p> <br>
+ 
+            <p>
+                Trzeci Akapit / Drugi DIV <br>
+                Drugi DIV --> obramowanie czarne DIV <br>
+                Drugi DIV --> obramowanie grubość 3px <br>
+                Drugi DIV --> r2 = 7mm + 12mm (wojciechowicz) = 19mm <br>
+            </p> <br>
+        </div>
+
+        <br><br>
+ 
+        <div id="trzeci_wojciechowicz">
+            <p>
+                Pierwszy Akapit / Trzeci DIV --> 1P <br>
+                Nazwa ID akapitu id="trzeci_wojciechowicz" <br>
+            </p> <br>
+ 
+            <p>
+                Trzeci Akapit / Trzeci DIV <br>
+                Trzeci DIV --> kolor różowy <br>
+            </p> <br>
+ 
+            <p>
+                Trzeci Akapit / Trzeci DIV <br>
+                Trzeci DIV --> obramowanie fioletowe DIV <br>
+                Trzeci DIV --> obramowanie grubość 19mm <br>
+                Trzeci DIV --> r2 = 7mm + 12mm (Grudzień) = 19mm <br>
+            </p> <br>
+        </div>
+    </body>
+</html>

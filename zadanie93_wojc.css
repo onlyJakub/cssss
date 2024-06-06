@@ -1,0 +1,21 @@
+body
+{
+background-color: rgb(148, 103, 143);
+}
+ul 
+{
+list-style: none;
+margin: 5px;
+padding: 0px;
+}
+ul a:link, ul a:visited 
+{
+display: block;
+color: #005500; 
+text-decoration: none;
+}
+ul a:hover 
+{
+color: #ff00ff;
+text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+.litera::first-letter {
+    font-size: 122pt;
+    color: blue;
+}
+
+.litera {
+    font-size: 20pt;
+    color: red;
+}
+
+.litera2::first-letter {
+    font-size: 122pt;
+    color: blue;
+}
+
+.litera2 {
+    font-size: 24pt;
+    color: lightgreen;
+}
+
+.h1::first-letter {
+    font-size: 150pt;
+    color: silver;
+}
+
+.h1 {
+    font-size: 50pt;
+    color: blue;
+}
+
+.line::first-letter{
+    font-size: 150pt;
+    color: red;
+}
+
+.line::first-line {
+    font-size: 20pt;
+    color: red;
+}
+
+.line {
+    font-size: 25pt;
+    color: blue;
+}

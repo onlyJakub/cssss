@@ -1,0 +1,18 @@
+body {
+    background-color: silver;
+}
+
+p#kwk{
+    font-size: 7mm;
+    color: blue ;
+}
+
+p:lang(pl){
+    font-size: 8mm;
+    color: lightgreen;
+}
+
+p:lang(en){
+    font-size: 12mm;
+    color: red;
+} 

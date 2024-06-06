@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+        <head>
+            <title>styl wewnetrzny body</title>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <!-- styl wewnetrzny -->
+                <style type="text/css">
+                    /* zerowanie wszystkich marginesów i przestrzeni*/
+                    * {
+                        margin: 0px;
+                        padding: 0px;
+                    }
+        
+                    /* definicja div*/
+                    /* overflow: hidden - -> ukrycie nadmiarowości czyli gdy elementy div są za duże*/
+                    div {
+                        overflow: hidden;
+                        border: 1px solid black;
+                    }
+        
+                    /* definicja ramki-główny element*/
+                    /* margin-right: auto;-wartość domyślna */
+                    #ramka {
+                        background-color: #C93;
+                        width: 1000px;
+                        margin-right: auto;
+                        margin-left: auto;
+                    }
+        
+                    #naglowek, #stopka, .kolumny {
+                        text-align: center;
+                    }
+        
+                    /* definicja nagłówka*/
+                    #naglowek {
+                        width: 100%;
+                        background-color: #FFCC00;
+                        padding-bottom: 15px;
+                        font-size: 1cm;
+                    }
+        
+                    /* definicja stopki*/
+                    #stopka {
+                        width: 100%;
+                        background-color: #CD9440;
+                        padding-bottom: 15px;
+                    }
+        
+                    /* definicja klasy kolumny */
+                    .kolumny {
+                        padding-top: 15px;
+                        width: 33.1%;
+                    }
+        
+                    /* definicje trzech kolumn */
+                    /* float :left; to aby elementy były obok siebie */
+        
+                    #kolumna_pierwsza {
+                        float: left;
+                        background-color: lightgreen;
+                    }
+        
+                    #kolumna_druga {
+                        float: left;
+                        background-color: lightskyblue;
+                    }
+        
+                    #kolumna_trzecia {
+                        background-color: red;
+                        float: left;
+                    }
+                </style>
+        </head>
+    <body>
+        <div id="ramka">
+            <div id="naglowek">Jakub Wojciechowicz 1P</div>
+            <div class="kolumny" id="kolumna_pierwsza">
+                <ul>
+                    <li>
+                        w oparciu o tabele (HTML→nie stosowane)
+                    </li>
+                    <li>
+                        w oparciu o iframe (HTML→nie stosowane)
+                    </li>
+                    <li>
+                        na DIVach
+                    </li>
+                    <li>
+                        w oparciu o instrukcje HTML5
+                    </li>
+                </ul>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+            </div>
+            <div class="kolumny" id="kolumna_druga">
+                overflow: hidden; → urkywa scroll-bara <br/>
+                float:left; → przeniesienie opadania elementu na lewo<br/>
+                margin-top:10px; → dodaje margin (przesunięcie o 10px w góre)<br/>
+                margin-right:2%;→ dodaje margin (przesunięcie o 2% w prawo)<br/>
+                margin-bottom:2%;→ dodaje margin (przesunięcie o 2% na dół)<br/>
+                margin-left:10px→ dodaje margin (przesunięcie o 2% w lewo)<br/>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+            </div>
+            <div class="kolumny" id="kolumna_trzecia">
+                <ul>
+                    <li>
+                        nav
+                    </li>
+                    <li>
+                        header
+                    </li>
+                    <li>
+                        footer
+                    </li>
+                    <li>
+                        aside
+                    </li>
+                    <li>
+                        article
+                    </li>
+                    <li>
+                        main
+                    </li>
+                    <li>
+                        sidebar
+                    </li>
+                </ul>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+                <p> &nbsp; </p>
+            </div>
+            <div id="stopka">
+                <ul>
+                    <li>
+                        nav
+                    </li>
+                    <li>
+                        header
+                    </li>
+                    <li>
+                        footer
+                    </li>
+                    <li>
+                        aside
+                    </li>
+                    <li>
+                        article
+                    </li>
+                    <li>
+                        main
+                    </li>
+                    <li>
+                        sidebar
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
+<!--Jakub Wojciechowicz-->
